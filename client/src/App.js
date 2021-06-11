@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <div className="App">
+import BookList from "./components/BookList";
 
-    </div>
-  );
+function App() {
+	return (
+		<div id="main">
+			<h1>Nhinh's reading list</h1>
+			<BookList />
+		</div>
+	);
 }
 
 export default App;
